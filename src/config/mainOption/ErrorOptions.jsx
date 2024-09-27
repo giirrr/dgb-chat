@@ -40,7 +40,7 @@ const ErrorOptios = (props) => {
   const optionsMarkup = options.map((option, index) => (
     <button
       class="bg-custom-teal bg-Custom-Teal float-left m-[5px] mr-4 h-10 max-w-[250px] cursor-pointer
-    rounded-xl border-none p-[10px] font-semibold text-white"
+    rounded-xl border-none p-[10px] text-[14px] font-semibold text-white"
       key={index}
       onClick={() => props.actionProvider[option.handler]()}
     >

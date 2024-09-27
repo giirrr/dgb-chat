@@ -21,7 +21,7 @@ const SideMenuBar = ({ onMenuItemClick }) => {
       >
         <div class="relative my-5 flex h-6 items-center justify-between px-2">
           <div
-            class="cursor-default text-base font-semibold text-Text-Normal "
+            class="cursor-default text-[16px] text-base font-semibold text-Text-Normal "
             onClick={() => {
               setShowSubMenus(!showSubMenus);
             }}
@@ -34,7 +34,7 @@ const SideMenuBar = ({ onMenuItemClick }) => {
           <hr class="mb-3" />
         </div>
         <div
-          className={`mb-1 flex h-[36px] w-[184px] cursor-pointer items-center p-2 font-semibold ${
+          className={`mb-1  flex h-[36px] w-[184px] cursor-pointer items-center p-2 text-[14px] font-semibold ${
             activeMenuItem === "retrieveInfo"
               ? "bg-Fill-Gray-Normal text-Text-Normal"
               : "hover:bg-Fill-Gray-Normal hover:text-Text-Normal"
@@ -44,8 +44,8 @@ const SideMenuBar = ({ onMenuItemClick }) => {
           홈
         </div>
         <div
-          className={`mb-1 flex h-[36px] w-[184px] cursor-pointer items-center p-2 font-semibold 
-            hover:bg-Fill-Gray-Normal hover:text-Text-Normal
+          className={`mb-1 flex h-[36px] w-[184px] cursor-pointer items-center p-2 text-[14px] 
+            font-semibold hover:bg-Fill-Gray-Normal  hover:text-Text-Normal
           `}
           onClick={() => handleMenuItemClick("retrieveInfo")}
         >

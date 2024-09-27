@@ -2,7 +2,6 @@
   width: 630px;
   height: 470px;
   margin: 0 auto;
-  border-radius: 8px;
   overflow: scroll;
   overflow-x: hidden;
   overflow-y: hidden;
@@ -47,6 +46,7 @@
   padding: 12px;
   background-color: white !important;
   border-radius: 0px 12px 12px 12px;
+  font-size: 14px;
 }
 
 .react-chatbot-kit-user-chat-message {
@@ -62,6 +62,7 @@
   background-color: #98f0e4 !important;
   border-radius: 12px 0px 12px 12px;
   margin-bottom: 28px;
+  font-size: 14px;
 }
 .react-chatbot-kit-user-chat-message-container {
   margin-top: 15px;
@@ -70,7 +71,7 @@
 
 .react-chatbot-kit-chat-inner-container {
   height: 100%;
-  width: 100%;
+  width: 600px;
 }
 .react-chatbot-kit-chat-bot-message-arrow,
 .react-chatbot-kit-chat-header,
@@ -97,6 +98,7 @@
   border-radius: 16px;
   height: 32px;
   width: 528px;
+  font-size: 14px;
 }
 .react-chatbot-kit-chat-input:focus {
   outline: none;

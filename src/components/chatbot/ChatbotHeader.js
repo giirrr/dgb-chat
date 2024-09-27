@@ -20,7 +20,7 @@ const ChatbotHeader = () => {
   }, []);
 
   return (
-    <div className="mb-[5px] ml-2 flex font-bold">
+    <div className="mb-[5px] ml-2 flex text-[14px] font-bold">
       전문적인 상담사 똑디
       <span className="current-time">{currentTime}</span>
     </div>

@@ -39,7 +39,7 @@ const ChatBotConfig = (menuItem) => {
         widgetName: "optionsWidget",
         widgetFunc: (props) => (
           <>
-            <div class="mb-5 h-[100px] w-full ">
+            <div class="h-[100px] w-full ">
               {" "}
               <DefalutOptions
                 {...props}

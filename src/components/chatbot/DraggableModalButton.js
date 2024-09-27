@@ -77,7 +77,7 @@ const DraggableModalButton = () => {
         </button>
       </Draggable>
       {isModalOpen && (
-        <div class="bg-background-tertiary fixed left-1/2 top-1/2 z-[9] h-[600px] w-[830px] -translate-x-1/2 -translate-y-1/2 transform overflow-scroll overflow-x-hidden overflow-y-hidden rounded-[10px] shadow-[0_0_10px_rgba(0,0,0,0.5)]">
+        <div class="bg-background-tertiary fixed left-1/2 top-1/2 z-[9] h-[600px] w-[800px] -translate-x-1/2 -translate-y-1/2 transform overflow-scroll overflow-x-hidden overflow-y-hidden rounded-[10px] shadow-[0_0_10px_rgba(0,0,0,0.5)]">
           <Main />
           <button
             onClick={toggleModal}
